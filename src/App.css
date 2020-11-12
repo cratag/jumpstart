@@ -1,0 +1,184 @@
+@font-face {
+  font-family: 'Avenir';
+  src: local('Avenir'), url(./fonts/Avenir/Avenir-Book.woff);
+}
+
+@font-face {
+  font-family: 'Avenir-medium';
+  src: local('Avenir-medium'), url(./fonts/Avenir/Avenir-Medium.woff);
+}
+
+.DotsMenu {
+  position: fixed;
+  width: 148px;
+  height: 110px;
+  left: 313px;
+  top: 31px;
+
+  background: #FFFFFF;
+  border-radius: 8px;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 50px rgba(50, 50, 93, 0.07);
+}
+.DotsMenuDeleteImage {
+  float: left;
+  margin-top: 6px;
+  margin-bottom: 6.22px;
+  margin-left: 14px;
+  width: 15px;  
+  height: 17px;
+}
+.DotsMenuDeleteText {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #EB5757;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 0px;
+}
+.DotsMenuDownloadImage {
+  float: left;
+  margin-top: 6px;
+  margin-top: 6.22px;
+  margin-left: 16px;
+  width: 14px;  
+  height: 19px;
+}
+.DotsMenuNoBackground {
+  height: 30px;
+  box-sizing: border-box;
+}
+.DotsMenuPrintImage {
+  float: left;
+  margin-top: 6px;
+  margin-top: 6.22px;
+  margin-left: 13px;
+  width: 18px;  
+  height: 17px;
+}
+.DotsMenuPrintText {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #0F2137;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 0px;
+}
+.DotsMenuPurpleBackground {
+height: 30px;
+background: #B05EFD;
+box-sizing: border-box;
+}
+.DotsMenuPurpleBackgroundText {
+font-family: Avenir;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+color: #ffffff;
+display: flex;
+align-items: center;
+margin-left: 50px;
+margin-top: 10px;
+}
+
+.Main {
+  text-align: center;
+  align-items: center;
+}
+.MainRectangle {
+  position: absolute;
+  width: 305px;
+  height: 300px;
+  left: 20px;
+  top: 20px;
+  background: #FFFFFF;
+  border: 1px solid #F1F4F6;
+  box-sizing: border-box;
+}
+.MainRectangleButtonBorder {
+  border-style: solid;
+  border-color: #8c14fc;
+  color: #8c14fc;
+  border-width: 1px;
+  height: 30px;
+  width: 243px;
+  border-radius: 6px;
+  margin-left: 31px;
+}
+.MainRectangleButtonText {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 10px;
+  
+  color: #8C14FC;
+  
+}
+.MainRectangleFolderIcon {
+  align-self: center;
+  margin-top: 25px;
+  width: 44px;
+  height: 44px;
+  left: 178px;
+  top: 25px;
+}
+.MainRectangleShadow {
+  width: 305px;
+  height: 4px;
+  background: #FEDEDD;
+  margin-top: 320px;
+  margin-left: 20px
+}
+.MainRectangleText {
+  position: absolute;
+  width: 243px;
+  height: 72px;
+  left: 79px;
+  top: 100px;
+  color: #343D48;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+} 
+.MainRectangleThreeDotsButton {
+  position: fixed;
+  left: 276px;
+  top: 31px;
+  height: 34px;
+  width: 34px;
+}
+.MainRectangleTitle {
+  position: absolute;
+  font-family: Avenir-medium;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  top: 65px;
+
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  color: #0F2137;
+} 
+
+
