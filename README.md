@@ -1,2 +1,0 @@
-# jumpstart
-Jumpstart interview
